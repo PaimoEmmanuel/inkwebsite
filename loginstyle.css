@@ -1,0 +1,99 @@
+/* Bordered form */
+body {
+  background-color: #D8C3A5 ;
+  
+}
+.nav div {
+  height:4px;
+  background-color: #8E8D8A;
+  margin: 5px 0;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.nav{
+  width: 30px;
+  display: block;
+  margin: 1em 0 0 1em;
+}
+
+.one{
+  width: 30px;
+}
+
+.two{
+  width: 20px;
+}
+.three{
+  width: 30px;
+}
+.nav:hover div{
+  width: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #8E8D8A;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color:#E98074;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:#8E8D8A ;
+  color: #D8C3A5 ;
+  padding: 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.wrapper{
+ text-align: center;
+}
+.button{
+   position: relative;
+    top: 70%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+.checked {
+  text-align: left; 
+  color:#8E8D8A;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  border-radius: 20%;
+}
+
+
+/* Add padding to containers */
+.container {
+  text-align: center;
+  font-size: 20px;
+}
+
+.id {
+    border-radius: 18px;
+    padding: 20px; 
+    width: 200px;
+    height: 50px;    
+}
