@@ -25,3 +25,11 @@
     dots[slideIndex-1].className += " active";
      setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
+  let i = 0;
+  var readMore = document.getElementsByClassName("read-more");
+  var hide = document.getElementsByClassName("hide");
+  readMore[0].addEventListener("click", showMore);
+  function showMore() {
+    hide[0].className = hide[0].className.replace("hide", "");
+    }
+

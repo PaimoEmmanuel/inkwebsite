@@ -1,5 +1,19 @@
+body{
+  background-image: url(images/background.jfif)
+  /*-moz-element()*/
+}
+li{
+  color: #f2f2f2 !important;
+}
 .navbar{
     margin: 0px;
+    color: #eae7dc;
+    background-color: #D8C3A5;
+    border-color: #D8C3A5;
+}
+.navbar-brand{
+  width: 10px;
+  height: 10px;
 }
 .swipe{
     width: 100%;
@@ -118,6 +132,7 @@
     color: #E85A4F;    
   }
   .p2{
+    font-weight: bold;
     color: #eae7dc;
     font-size: 250%;
     font-family: Tahoma;
@@ -140,9 +155,9 @@
 /***********************************************************************
  *  Grid Panel
  **********************************************************************/
- .grid-wrapper {
+ /*.grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: 50px 50px 50px 50px;
     grid-gap: 20px;
 }
 .box {
@@ -153,6 +168,47 @@
 .box > img {
     max-width: 180px;
     width: auto;
+}*/
+.wrapper {
+  margin-left: 2%;
+  margin-right: 2%;
+  display: grid;
+  margin-top: 4%;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4%;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.book-image{
+  padding: 5%;
+  cursor: pointer;
+  background-color: #E85A4F;
+  text-align: center;
+  border-radius:4%;
+  border:1px solid #bbb;
+  transition: all 0.3s linear;
+}
+.book-image :hover{
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.p-hide{
+  display: none;
+}
+.read-more{
+  color: #E85A4F;
+  background-color:#eae7dc;
+  border-color: #D8C3A5;
+}
+.read-more:hover {
+  color: #eae7dc;
+  background-color: #E85A4F;
+  border-color: #E85A4F;
 }
 .footer{
     text-align: center;
