@@ -3,33 +3,6 @@ body {
   background-color: #D8C3A5 ;
   
 }
-.nav div {
-  height:4px;
-  background-color: #8E8D8A;
-  margin: 5px 0;
-  border-radius: 25px;
-  transition: 0.3s;
-}
-
-.nav{
-  width: 30px;
-  display: block;
-  margin: 1em 0 0 1em;
-}
-
-.one{
-  width: 30px;
-}
-
-.two{
-  width: 20px;
-}
-.three{
-  width: 30px;
-}
-.nav:hover div{
-  width: 30px;
-}
 
 h1 {
   text-align: center;
@@ -38,13 +11,15 @@ h1 {
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
+  width: 80%;
+  padding:20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
   background-color:#E98074;
+
+
 }
 
 /* Set a style for all buttons */
@@ -81,9 +56,13 @@ button:hover {
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
-  border-radius: 20%;
+  border-radius: 50%;
 }
-
+img {
+  width:600px;
+  height:300px;
+  border-radius: 50%;
+}
 
 /* Add padding to containers */
 .container {
@@ -94,6 +73,6 @@ button:hover {
 .id {
     border-radius: 18px;
     padding: 20px; 
-    width: 200px;
+    width: 250px;
     height: 50px;    
 }
